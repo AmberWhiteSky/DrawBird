@@ -19,6 +19,17 @@
 
 @implementation MyPaintView
 
+//清空
+-(void)clear {
+    [self.totalPahtPoints  removeAllObjects];
+    [self setNeedsDisplay];
+}
+//回退
+-(void)back{
+    [self.totalPahtPoints  removeLastObject];
+    [self setNeedsDisplay];
+}
+
 -(NSMutableArray *)totalPahtPoints {
     if (_totalPahtPoints==nil) {
         _totalPahtPoints =[NSMutableArray   array];

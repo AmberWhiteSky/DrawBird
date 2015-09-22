@@ -16,6 +16,7 @@
 		3C387A051BAEF16E00BB8C90 /* DrawBirdProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C387A041BAEF16E00BB8C90 /* DrawBirdProjectTests.m */; };
 		3C387A101BAEF16E00BB8C90 /* DrawBirdProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C387A0F1BAEF16E00BB8C90 /* DrawBirdProjectUITests.m */; };
 		3C387A1F1BAEF1B300BB8C90 /* MyPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C387A1E1BAEF1B200BB8C90 /* MyPaintView.m */; settings = {ASSET_TAGS = (); }; };
+		3CCE8BBE1BB1A840008C381B /* UIImage+CatchPictureImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE8BBD1BB1A840008C381B /* UIImage+CatchPictureImageView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3C387A111BAEF16E00BB8C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C387A1D1BAEF1B200BB8C90 /* MyPaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPaintView.h; sourceTree = "<group>"; };
 		3C387A1E1BAEF1B200BB8C90 /* MyPaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPaintView.m; sourceTree = "<group>"; };
+		3CCE8BBC1BB1A840008C381B /* UIImage+CatchPictureImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CatchPictureImageView.h"; sourceTree = "<group>"; };
+		3CCE8BBD1BB1A840008C381B /* UIImage+CatchPictureImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CatchPictureImageView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 		3C3879E91BAEF16E00BB8C90 /* DrawBirdProject */ = {
 			isa = PBXGroup;
 			children = (
+				3CCE8BBC1BB1A840008C381B /* UIImage+CatchPictureImageView.h */,
+				3CCE8BBD1BB1A840008C381B /* UIImage+CatchPictureImageView.m */,
 				3C3879ED1BAEF16E00BB8C90 /* AppDelegate.h */,
 				3C3879EE1BAEF16E00BB8C90 /* AppDelegate.m */,
 				3C3879F01BAEF16E00BB8C90 /* ViewController.h */,
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3879F21BAEF16E00BB8C90 /* ViewController.m in Sources */,
+				3CCE8BBE1BB1A840008C381B /* UIImage+CatchPictureImageView.m in Sources */,
 				3C387A1F1BAEF1B300BB8C90 /* MyPaintView.m in Sources */,
 				3C3879EF1BAEF16E00BB8C90 /* AppDelegate.m in Sources */,
 				3C3879EC1BAEF16E00BB8C90 /* main.m in Sources */,
@@ -505,6 +511,7 @@
 				3C387A161BAEF16E00BB8C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C387A171BAEF16E00BB8C90 /* Build configuration list for PBXNativeTarget "DrawBirdProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				3C387A191BAEF16E00BB8C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C387A1A1BAEF16E00BB8C90 /* Build configuration list for PBXNativeTarget "DrawBirdProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				3C387A1C1BAEF16E00BB8C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

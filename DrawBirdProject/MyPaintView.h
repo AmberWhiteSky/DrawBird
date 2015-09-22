@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MyPaintView : UIView
-
+-(void) clear;
+-(void) back;
 @end
