@@ -191,7 +191,7 @@
 
 //绘制
 -(void)drawRect:(CGRect)rect {
-    //设置路径颜色
+    //设置路径颜色 用路径
     [[UIColor  greenColor]set];
     for (UIBezierPath  *path in  self.paths ) {
         [path stroke];
